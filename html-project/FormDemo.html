@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <body>
+    </head>
+        <form action="/signup" method="post">
+            <!-- <p style="text-align:center;">Centered paragraph.</p> -->
+            <p>
+                <style>
+                    body { background: rgb(255, 255, 255); color: rgb(0, 0, 0); }
+                   </style>
+              <label><h1 style="text-align:center;">Let's Talk About Your Needs</h1></label>
+              <label><h1 style="text-align:center;"><i>KGiSL</i></h1></label><br>
+              <!-- <label>
+                <input type="radio" name="title" value="mr"/>
+                Mr
+              </label>
+              <label>
+                <input type="radio" name="title" value="mrs"/>
+                Mrs
+              </label>
+              <label>
+                <input type="radio" name="title" value="miss"/>
+                Miss
+              </label> -->
+            </p>
+            <p>
+                <label class="required"><b>Full Name</b></label><br>
+                <input type="text"/>
+                <style>
+                  .required:after {
+                    content:" *";
+                    color: red;
+                  }
+                </style>
+                <p></p>
+              <label class="required"><b>Last name</b></label><br>
+              <input type="text"/>
+              <style>
+              .required:after{
+                content: " *";
+                color: red; }
+                </style>
+            </p>
+            <p>
+              <label><b>Company Name *</b></label><br>
+              <input type="text" name="company_name" spellcheck required/>
+            <p> </p>
+                <label><b>Job Title *</b></label><br>
+                <input type="text" name="job_title" spellcheck required/>
+              </p>
+            <p>
+              <label><b>Email *</b></label><br>
+              <input type="email" name="email" required/>
+            <p> </p>
+              <label><b>Mobile number *</b></label><br>
+              <select>
+                <option>India</option>
+                <option>China</option>
+                <option>United States</option>
+                <option>Indonesia</option>
+                <option>Brazil</option>
+              </select>
+              <input type="tel" name="phone" required/>
+            </p>
+            <p>
+                <div>
+                <label><b>Enquiry *</b></label><br>
+                <select>
+                  <option>Product</option>
+                  <option>Service</option>
+                  <option>Media Relation</option>
+                  <option>Partnership</option>
+                  <option>Others</option>
+                </select>
+            </div>
+              </p>
+            <p>
+              <label><b>Country *</b></label><br>
+              <select>
+                <option>India</option>
+                <option>China</option>
+                <option>United States</option>
+                <option>Indonesia</option>
+                <option>Brazil</option>
+              </select>
+            </p>
+            <p>
+                <label for="msg"><b>Tell us more about what you are looking for?</b></label><br>
+               <textarea id="msg" name="user_message"></textarea>
+               </p>
+            <p>
+              <label>
+                <input type="checkbox" value="" required/>
+                <b>I agree to receive marketing emails from KGiSL.</b>
+            </label>
+          </p>
+          <p>
+            <label>
+              <input type="checkbox" value="" required/>
+              <b>I have read & agree to KGiSL's <a href="https://www.kgisl.com/privacy-policy/" rel="noopener noreferrer" target="_blank">Privacy Policy</a></b>
+            </label>
+        </p>
+          <p>
+            <button>Submit</button>
+          </p>
+          
+          <p><b> &copy;KGiSL</b></p>
+          
+        </form>
+    </body>
+</html>

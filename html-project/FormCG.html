@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Details</title>
+  <style>
+    body { background: rgb(3, 4, 66); color: rgb(240, 9, 105); }
+   </style>
+</head>
+<body>
+    <form action="/my-handling-form-page" method="post">
+        <h2>Details</h2>
+        <p>
+           <p>
+            <label for="name">Name</label><br>
+           <input type="text" id="name" name="user_name">
+           </p>
+           <p>
+            <label for="mail">E-mail</label><br>
+            <input type="email" id="mail" name="user_email">
+           </p>
+           <p>
+            <label for="dob">Date Of Birth</label><br>
+            <input type="date" name="dob">
+           </p>
+           <p>
+            <label for="resume">Resume</label><br>
+            <input type="file" name="resume">
+           </p>
+           <p>
+            <label for="msg">Tell something about me</label><br>
+           <textarea id="msg" name="user_message"></textarea>
+           </p>
+        </p>
+       </form>
+</body>
+</html>
